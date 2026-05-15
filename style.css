@@ -1,0 +1,47 @@
+body{
+    
+    background-image: url('https://imgs.search.brave.com/Shm2_68xZ8PGhLNWC2UVa0qrBURglHuZw1G4bBo2qys/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMDEv/OTg0Lzg4MC9zbWFs/bC9hYnN0cmFjdC1j/b2xvcmZ1bC1nZW9t/ZXRyaWMtb3Zlcmxh/cHBpbmctYmFja2dy/b3VuZC1hbmQtdGV4/dHVyZS1mcmVlLXZl/Y3Rvci5qcGc');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.navbar-container{
+    display: flex;
+    background-color: rgb(93, 0, 255);
+    justify-content: space-around;
+    align-items: center;
+}
+.img-container img,img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+.profile-container input{
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+@media(max-width:768px){
+.navbar-container{
+    display: flex;
+    background-color: rgb(93, 0, 255);
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+@media(max-width:450px){
+.nav-links{
+    display: none;
+    
+}
+}
